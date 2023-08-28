@@ -1,5 +1,6 @@
 body{
     max-height: 100vh;
+    margin: 0 0 0 0;
 }
 .up-section{
     border: 1px black solid;
@@ -7,22 +8,46 @@ body{
     height: 50px;
 }
 .nav{
-    border: 1px black solid;
-    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    /* border: 1px black solid; */
+    /* text-align: center; */
     height: 30px;
 }
+.nav-button {
+    align-items: center;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    font-size: 15px;
+    display: flex ;
+    color: white;
+    display: inline-block;
+}
+li:hover{
+    font-size: 20px;
+    display: flex;
+    color: white;
+    display: inline-block;
+}
 .hero{
+    background-image: url("https://www.stonybrookvillage.com/wp-content/uploads/2018/08/fall-leaves-falling-banner-e1535660589398.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px black solid;
     text-align: center;
     height: 180px;
 }
 .main-section{
-    border: 1px black solid;
+    
     text-align: center;
-    height: 110px;
-}
-footer{
-    border: 1px black solid;
+    height: 100%;
+}.footer{
+    background-color: darkgray;
     text-align: center;
     height: 50px;
 }
